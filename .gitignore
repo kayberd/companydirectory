@@ -1,0 +1,17 @@
+# Ignore database files
+db.sqlite3
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore migration files
+companies/migrations/
+
+
+# Ignore all other company directory specific compiled files
+companydirectory/__pycache__/
+companydirectory/*.pyc
+companydirectory/wsgi.cpython-310.pyc
+companydirectory/urls.cpython-310.pyc
+companydirectory/settings.cpython-310.pyc
